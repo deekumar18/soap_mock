@@ -37,7 +37,7 @@ public class SoapWebServiceConfig extends WsConfigurerAdapter {
         definition.setSchema(userSchema);
         definition.setLocationUri("/soapWS");
         definition.setPortTypeName("UserServicePort");
-        definition.setTargetNamespace("http://techprimers.com/spring-boot-soap-example");
+        definition.setTargetNamespace("http://github.com/deekumar18/soap_mock");
         return definition;
     }
 

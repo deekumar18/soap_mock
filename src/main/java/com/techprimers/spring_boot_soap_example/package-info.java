@@ -5,5 +5,5 @@
 // Generated on: 2019.08.09 at 11:23:38 AM BST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://techprimers.com/spring-boot-soap-example", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://github.com/deekumar18/soap_mock", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package com.techprimers.spring_boot_soap_example;
