@@ -5,10 +5,14 @@ com\github\deekumar18\soap_mock\package-info.class
 com\techprimers\springbootsoapexample\SpringBootSoapExampleApplication.class
 com\techprimers\springbootsoapexample\service\UserService.class
 com\techprimers\springbootsoapexample\endpoint\UserEndpoint.class
+uk\gov\gsi\childmaintenance\futurescheme\bo\tam\updateexternaluser\package-info.class
+uk\gov\gsi\childmaintenance\futurescheme\bo\tam\updateexternaluser\UpdateExternalUser.class
+com\techprimers\springbootsoapexample\config\SoapWebServiceConfig$1.class
 com\techprimers\springbootsoapexample\config\SoapWebServiceConfig.class
 com\github\deekumar18\soap_mock\ObjectFactory.class
 com\techprimers\spring_boot_soap_example\User.class
 com\techprimers\spring_boot_soap_example\ObjectFactory.class
 com\techprimers\spring_boot_soap_example\GetUserRequest.class
 com\github\deekumar18\soap_mock\GetUserResponse.class
+uk\gov\gsi\childmaintenance\futurescheme\bo\tam\updateexternaluser\ObjectFactory.class
 com\github\deekumar18\soap_mock\User.class
