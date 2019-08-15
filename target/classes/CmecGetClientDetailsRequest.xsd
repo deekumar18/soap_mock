@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+	targetNamespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecGetClientDetailsRequest"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:bons0="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/CMECHeader.xsd">
+	<xsd:import schemaLocation="CMECHeader.xsd"
+		namespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/CMECHeader.xsd">
+	</xsd:import>
+	<xsd:complexType name="CmecGetClientDetailsRequest">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="RequestHeader"
+				type="bons0:CMECHeader">
+			</xsd:element>
+			<xsd:element minOccurs="1" name="SCIN" type="xsd:string"
+				maxOccurs="1" />
+
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

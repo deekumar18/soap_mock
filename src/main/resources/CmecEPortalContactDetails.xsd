@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+	targetNamespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecEPortalContactDetails"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:complexType name="CmecEPortalContactDetails">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="PrimaryContactFlag"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="EmailAddress"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="FirstName"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="LastName"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="ReferenceCode"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="MiddleName"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="BirthDate"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="JobRole"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="Gender"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="Title" type="xsd:string" />
+			<xsd:element maxOccurs="unbounded" minOccurs="0"
+				name="CellularPhoneNum" type="xsd:string">
+			</xsd:element>
+			<xsd:element maxOccurs="unbounded" minOccurs="0"
+				name="HomePhoneNum" type="xsd:string">
+			</xsd:element>
+			<xsd:element maxOccurs="unbounded" minOccurs="0"
+				name="WorkPhoneNum" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="ContactPreference"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="PersonID"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="SCIN" type="xsd:string" />
+			<xsd:element minOccurs="0" name="NINO" type="xsd:string"></xsd:element>
+			<xsd:element minOccurs="0" name="LanguagePreference"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="SmsFlag"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="WorkPhoneNumExtn"
+				type="xsd:string" maxOccurs="unbounded">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

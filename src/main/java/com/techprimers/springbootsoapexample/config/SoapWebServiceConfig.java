@@ -35,7 +35,7 @@ public class SoapWebServiceConfig extends WsConfigurerAdapter {
 
     @Bean
     public XsdSchema testSchema() {
-        return new SimpleXsdSchema(new ClassPathResource("UpdateExternalUser.xsd"));
+        return new SimpleXsdSchema(new ClassPathResource("CmecGetClientDetailsRequest.xsd"));
     }
 
  // A bean with both schemas

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+	targetNamespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecEPortalCaseContactDetails"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:complexType name="CmecEPortalCaseContactDetails">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="ContactFirstName"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="ContactLastName"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="ContactCaseRelation"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="ContactId"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="ContactBANCSAccNum"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="ContactGender"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="ContactSCIN"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="Parentage"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="BirthDate"
+				type="xsd:string">
+			</xsd:element>
+
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--*****************************************************************************************************************
+	*    Version *     Changed By     * Date       * Description
+	*****************************************************************************************************************
+	*     1.0    * 		Balu Gunnam	 	  		  * 07/10/10   * Started versioning of XSD
+	
+	*****************************************************************************************************************-->
+<xsd:schema
+	targetNamespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/Response.xsd"
+	xmlns:bons0="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/Response.xsd"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+	<xsd:complexType name="Response">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="responseCode"
+				type="xsd:int" />
+			<xsd:element minOccurs="0" name="responseMessage"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element name="responseDetails" maxOccurs="unbounded"
+				minOccurs="0">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="code" type="xsd:string"
+							minOccurs="0" />
+						<xsd:element name="description"
+							type="xsd:string" minOccurs="0" />
+						<xsd:element name="responseFrom"
+							type="xsd:string" minOccurs="0" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element minOccurs="0" name="SRNumber"
+				type="xsd:string">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

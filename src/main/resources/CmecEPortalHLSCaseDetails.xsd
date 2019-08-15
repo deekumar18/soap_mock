@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+	targetNamespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecEPortalHLSCaseDetails"
+	xmlns:bons0="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecEPortalCaseContactDetails"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:import
+		namespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecEPortalCaseContactDetails"
+		schemaLocation="CmecEPortalCaseContactDetails.xsd">
+	</xsd:import>
+	<xsd:complexType name="CmecEPortalHLSCaseDetails">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="CaseNum"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="Name" type="xsd:string" />
+			<xsd:element minOccurs="0" name="ApplicantType"
+				type="xsd:string">
+			</xsd:element>
+
+			<xsd:element minOccurs="0" name="CaseId"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="Relationshiptype"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="AnniversaryDate"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="WeeklyLiabilityAmount"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="MonthlyLiabilityAmount"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="LiabilityAmount"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="AnnualLiabilityAmount"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CaseEffectiveDate"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="InitialDate"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="Status"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="SubStatus"
+				type="xsd:string">
+			</xsd:element>
+
+			<xsd:element minOccurs="0" name="CaseStage"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECServiceType"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECAnnualARNrpCCAmt"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECAnnualARPwcCCAmt"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECFullAnnualNrpCCAmt"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECFullAnnualPwcCCAmt"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECWeeklyNrpCCAmt"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECWeeklyPwcCCAmt"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECNrpOgmCharge"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECPwcCOgmCharge"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="CMECNrpPmtFrequency"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element maxOccurs="unbounded" minOccurs="0"
+				name="CaseContactDetails"
+				type="bons0:CmecEPortalCaseContactDetails">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
