@@ -11,6 +11,7 @@ package uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdet
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -39,6 +40,7 @@ import javax.xml.bind.annotation.XmlType;
     "requestHeader",
     "scin"
 })
+@XmlRootElement(name = "getClientDetails", namespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/interfaces/CMECGetClientDetailsWebService")
 public class CmecGetClientDetailsRequest {
 
     @XmlElement(name = "RequestHeader")

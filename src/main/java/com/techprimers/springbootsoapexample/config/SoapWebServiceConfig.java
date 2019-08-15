@@ -27,11 +27,11 @@ public class SoapWebServiceConfig extends WsConfigurerAdapter {
     }
 
 
-   /* @Bean
+    @Bean
     public XsdSchema userSchema() {
         return new SimpleXsdSchema(new ClassPathResource("users.xsd"));
     }
-*/
+
 
     @Bean
     public XsdSchema testSchema() {
@@ -76,17 +76,28 @@ public class SoapWebServiceConfig extends WsConfigurerAdapter {
     }*/
     
     @Bean
-    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema testSchema) {
+    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema userSchema) {
 
         DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
-        definition.setSchema(testSchema);
+        definition.setSchema(userSchema);
         definition.setLocationUri("/soapWS");
         definition.setPortTypeName("UserServicePort");
         definition.setTargetNamespace("http://github.com/deekumar18/soap_mock");
         return definition;
     }
     
-   /* @Bean
+    @Bean
+    public DefaultWsdl11Definition defaultWsdl11Definition1(XsdSchema testSchema) {
+
+        DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
+        definition.setSchema(testSchema);
+        definition.setLocationUri("/soapWS");
+        definition.setPortTypeName("UserServicePort");
+        definition.setTargetNamespace("http://www.childmaintenance.gsi.gov.uk/futurescheme/interfaces/CMECGetClientDetailsWebService");
+        return definition;
+    }
+    
+    /* @Bean
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema userSchema) {
 
         DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
