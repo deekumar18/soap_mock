@@ -13,6 +13,7 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -45,6 +46,7 @@ import javax.xml.bind.annotation.XmlType;
     "clientAddress",
     "cientHLSCaseDetails"
 })
+@XmlRootElement(name = "getClientDetailsResponse", namespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/interfaces/CMECGetClientDetailsWebService")
 public class CmecGetClientDetailsResponse {
 
     @XmlElement(name = "ResponseHeader")
