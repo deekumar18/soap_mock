@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--*****************************************************************************************************************
+	*    Version *     Changed By     * Date       * Description
+	*****************************************************************************************************************
+	*     1.0    * 		Balu Gunnam	 	  		  * 07/10/10   * Started versioning of XSD
+	
+	*****************************************************************************************************************-->
+<xsd:schema
+	targetNamespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/CMECHeader.xsd"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+	<xsd:complexType name="CMECHeader">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="serviceName"
+				type="xsd:string" />
+			<xsd:element minOccurs="0" name="operation"
+				type="xsd:string" />
+			<xsd:element minOccurs="0" name="reqSystemName"
+				type="xsd:string" />
+			<xsd:element minOccurs="0" name="originatorID"
+				type="xsd:string" />
+			<xsd:element minOccurs="0" name="originatorIP"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="sourceObjectId"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="branchNumber"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="seqNum"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="timeStamp"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="sensitiveAccessFlag"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="hostName"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="autoCompleteFlag"
+				type="xsd:string">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
