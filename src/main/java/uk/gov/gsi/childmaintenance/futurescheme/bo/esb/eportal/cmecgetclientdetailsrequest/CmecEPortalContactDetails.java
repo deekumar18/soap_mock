@@ -5,21 +5,23 @@
 // Generated on: 2019.08.15 at 01:35:12 PM BST 
 //
 
-
 package uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for CmecEPortalContactDetails complex type.
+ * <p>
+ * Java class for CmecEPortalContactDetails complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="CmecEPortalContactDetails">
@@ -56,568 +58,502 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CmecEPortalContactDetails", namespace = "http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecEPortalContactDetails", propOrder = {
-    "primaryContactFlag",
-    "emailAddress",
-    "firstName",
-    "lastName",
-    "referenceCode",
-    "middleName",
-    "birthDate",
-    "jobRole",
-    "gender",
-    "title",
-    "cellularPhoneNum",
-    "homePhoneNum",
-    "workPhoneNum",
-    "contactPreference",
-    "personID",
-    "scin",
-    "nino",
-    "languagePreference",
-    "smsFlag",
-    "workPhoneNumExtn"
-})
+		"primaryContactFlag", "emailAddress", "firstName", "lastName", "referenceCode", "middleName", "birthDate",
+		"jobRole", "gender", "title", "cellularPhoneNum", "homePhoneNum", "workPhoneNum", "contactPreference",
+		"personID", "scin", "nino", "languagePreference", "smsFlag", "workPhoneNumExtn" })
 public class CmecEPortalContactDetails {
 
-    @XmlElement(name = "PrimaryContactFlag")
-    protected String primaryContactFlag;
-    @XmlElement(name = "EmailAddress")
-    protected String emailAddress;
-    @XmlElement(name = "FirstName")
-    protected String firstName;
-    @XmlElement(name = "LastName")
-    protected String lastName;
-    @XmlElement(name = "ReferenceCode")
-    protected String referenceCode;
-    @XmlElement(name = "MiddleName")
-    protected String middleName;
-    @XmlElement(name = "BirthDate")
-    protected String birthDate;
-    @XmlElement(name = "JobRole")
-    protected String jobRole;
-    @XmlElement(name = "Gender")
-    protected String gender;
-    @XmlElement(name = "Title")
-    protected String title;
-    @XmlElement(name = "CellularPhoneNum")
-    protected List<String> cellularPhoneNum;
-    @XmlElement(name = "HomePhoneNum")
-    protected List<String> homePhoneNum;
-    @XmlElement(name = "WorkPhoneNum")
-    protected List<String> workPhoneNum;
-    @XmlElement(name = "ContactPreference")
-    protected String contactPreference;
-    @XmlElement(name = "PersonID")
-    protected String personID;
-    @XmlElement(name = "SCIN")
-    protected String scin;
-    @XmlElement(name = "NINO")
-    protected String nino;
-    @XmlElement(name = "LanguagePreference")
-    protected String languagePreference;
-    @XmlElement(name = "SmsFlag")
-    protected String smsFlag;
-    @XmlElement(name = "WorkPhoneNumExtn")
-    protected List<String> workPhoneNumExtn;
+	@XmlElement(name = "BirthDate")
+	protected String birthDate;
+	@XmlElement(name = "CellularPhoneNum")
+	protected List<String> cellularPhoneNum;
+	@XmlElement(name = "ContactPreference")
+	protected String contactPreference;
+	@XmlElement(name = "EmailAddress")
+	protected String emailAddress;
+	@XmlElement(name = "FirstName")
+	protected String firstName;
+	@XmlElement(name = "Gender")
+	protected String gender;
+	@XmlElement(name = "HomePhoneNum")
+	protected List<String> homePhoneNum;
+	@XmlElement(name = "JobRole")
+	protected String jobRole;
+	@XmlElement(name = "LanguagePreference")
+	protected String languagePreference;
+	@XmlElement(name = "LastName")
+	protected String lastName;
+	@XmlElement(name = "MiddleName")
+	protected String middleName;
+	@XmlElement(name = "NINO")
+	protected String nino;
+	@XmlElement(name = "PersonID")
+	protected String personID;
+	@XmlElement(name = "PrimaryContactFlag")
+	protected String primaryContactFlag;
+	@XmlElement(name = "ReferenceCode")
+	protected String referenceCode;
+	@XmlElement(name = "SCIN")
+	protected String scin;
+	@XmlElement(name = "SmsFlag")
+	protected String smsFlag;
+	@XmlElement(name = "Title")
+	protected String title;
+	@XmlElement(name = "WorkPhoneNum")
+	protected List<String> workPhoneNum;
+	@XmlElement(name = "WorkPhoneNumExtn")
+	protected List<String> workPhoneNumExtn;
 
-    /**
-     * Gets the value of the primaryContactFlag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPrimaryContactFlag() {
-        return primaryContactFlag;
-    }
+	/**
+	 * Gets the value of the birthDate property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getBirthDate() {
+		return birthDate;
+	}
 
-    /**
-     * Sets the value of the primaryContactFlag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPrimaryContactFlag(String value) {
-        this.primaryContactFlag = value;
-    }
+	/**
+	 * Gets the value of the cellularPhoneNum property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the cellularPhoneNum property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getCellularPhoneNum().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list {@link String }
+	 * 
+	 * 
+	 */
+	public List<String> getCellularPhoneNum() {
+		if (cellularPhoneNum == null) {
+			cellularPhoneNum = new ArrayList<String>();
+		}
+		return this.cellularPhoneNum;
+	}
 
-    /**
-     * Gets the value of the emailAddress property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEmailAddress() {
-        return emailAddress;
-    }
+	/**
+	 * Gets the value of the contactPreference property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getContactPreference() {
+		return contactPreference;
+	}
 
-    /**
-     * Sets the value of the emailAddress property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEmailAddress(String value) {
-        this.emailAddress = value;
-    }
+	/**
+	 * Gets the value of the emailAddress property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getEmailAddress() {
+		return emailAddress;
+	}
 
-    /**
-     * Gets the value of the firstName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFirstName() {
-        return firstName;
-    }
+	/**
+	 * Gets the value of the firstName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getFirstName() {
+		return firstName;
+	}
 
-    /**
-     * Sets the value of the firstName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFirstName(String value) {
-        this.firstName = value;
-    }
+	/**
+	 * Gets the value of the gender property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getGender() {
+		return gender;
+	}
 
-    /**
-     * Gets the value of the lastName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLastName() {
-        return lastName;
-    }
+	/**
+	 * Gets the value of the homePhoneNum property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the homePhoneNum property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getHomePhoneNum().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list {@link String }
+	 * 
+	 * 
+	 */
+	public List<String> getHomePhoneNum() {
+		if (homePhoneNum == null) {
+			homePhoneNum = new ArrayList<String>();
+		}
+		return this.homePhoneNum;
+	}
 
-    /**
-     * Sets the value of the lastName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLastName(String value) {
-        this.lastName = value;
-    }
+	/**
+	 * Gets the value of the jobRole property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getJobRole() {
+		return jobRole;
+	}
 
-    /**
-     * Gets the value of the referenceCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getReferenceCode() {
-        return referenceCode;
-    }
+	/**
+	 * Gets the value of the languagePreference property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLanguagePreference() {
+		return languagePreference;
+	}
 
-    /**
-     * Sets the value of the referenceCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setReferenceCode(String value) {
-        this.referenceCode = value;
-    }
+	/**
+	 * Gets the value of the lastName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLastName() {
+		return lastName;
+	}
 
-    /**
-     * Gets the value of the middleName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMiddleName() {
-        return middleName;
-    }
+	/**
+	 * Gets the value of the middleName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getMiddleName() {
+		return middleName;
+	}
 
-    /**
-     * Sets the value of the middleName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMiddleName(String value) {
-        this.middleName = value;
-    }
+	/**
+	 * Gets the value of the nino property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getNINO() {
+		return nino;
+	}
 
-    /**
-     * Gets the value of the birthDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBirthDate() {
-        return birthDate;
-    }
+	/**
+	 * Gets the value of the personID property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getPersonID() {
+		return personID;
+	}
 
-    /**
-     * Sets the value of the birthDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBirthDate(String value) {
-        this.birthDate = value;
-    }
+	/**
+	 * Gets the value of the primaryContactFlag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getPrimaryContactFlag() {
+		return primaryContactFlag;
+	}
 
-    /**
-     * Gets the value of the jobRole property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getJobRole() {
-        return jobRole;
-    }
+	/**
+	 * Gets the value of the referenceCode property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getReferenceCode() {
+		return referenceCode;
+	}
 
-    /**
-     * Sets the value of the jobRole property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setJobRole(String value) {
-        this.jobRole = value;
-    }
+	/**
+	 * Gets the value of the scin property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSCIN() {
+		return scin;
+	}
 
-    /**
-     * Gets the value of the gender property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getGender() {
-        return gender;
-    }
+	/**
+	 * Gets the value of the smsFlag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSmsFlag() {
+		return smsFlag;
+	}
 
-    /**
-     * Sets the value of the gender property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setGender(String value) {
-        this.gender = value;
-    }
+	/**
+	 * Gets the value of the title property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTitle() {
+		return title;
+	}
 
-    /**
-     * Gets the value of the title property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTitle() {
-        return title;
-    }
+	/**
+	 * Gets the value of the workPhoneNum property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the workPhoneNum property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getWorkPhoneNum().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list {@link String }
+	 * 
+	 * 
+	 */
+	public List<String> getWorkPhoneNum() {
+		if (workPhoneNum == null) {
+			workPhoneNum = new ArrayList<String>();
+		}
+		return this.workPhoneNum;
+	}
 
-    /**
-     * Sets the value of the title property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTitle(String value) {
-        this.title = value;
-    }
+	/**
+	 * Gets the value of the workPhoneNumExtn property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the workPhoneNumExtn property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getWorkPhoneNumExtn().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list {@link String }
+	 * 
+	 * 
+	 */
+	public List<String> getWorkPhoneNumExtn() {
+		if (workPhoneNumExtn == null) {
+			workPhoneNumExtn = new ArrayList<String>();
+		}
+		return this.workPhoneNumExtn;
+	}
 
-    /**
-     * Gets the value of the cellularPhoneNum property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the cellularPhoneNum property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getCellularPhoneNum().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link String }
-     * 
-     * 
-     */
-    public List<String> getCellularPhoneNum() {
-        if (cellularPhoneNum == null) {
-            cellularPhoneNum = new ArrayList<String>();
-        }
-        return this.cellularPhoneNum;
-    }
+	/**
+	 * Sets the value of the birthDate property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setBirthDate(String value) {
+		this.birthDate = value;
+	}
 
-    /**
-     * Gets the value of the homePhoneNum property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the homePhoneNum property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getHomePhoneNum().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link String }
-     * 
-     * 
-     */
-    public List<String> getHomePhoneNum() {
-        if (homePhoneNum == null) {
-            homePhoneNum = new ArrayList<String>();
-        }
-        return this.homePhoneNum;
-    }
+	/**
+	 * Sets the value of the contactPreference property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setContactPreference(String value) {
+		this.contactPreference = value;
+	}
 
-    /**
-     * Gets the value of the workPhoneNum property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the workPhoneNum property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getWorkPhoneNum().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link String }
-     * 
-     * 
-     */
-    public List<String> getWorkPhoneNum() {
-        if (workPhoneNum == null) {
-            workPhoneNum = new ArrayList<String>();
-        }
-        return this.workPhoneNum;
-    }
+	/**
+	 * Sets the value of the emailAddress property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setEmailAddress(String value) {
+		this.emailAddress = value;
+	}
 
-    /**
-     * Gets the value of the contactPreference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContactPreference() {
-        return contactPreference;
-    }
+	/**
+	 * Sets the value of the firstName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setFirstName(String value) {
+		this.firstName = value;
+	}
 
-    /**
-     * Sets the value of the contactPreference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContactPreference(String value) {
-        this.contactPreference = value;
-    }
+	/**
+	 * Sets the value of the gender property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setGender(String value) {
+		this.gender = value;
+	}
 
-    /**
-     * Gets the value of the personID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPersonID() {
-        return personID;
-    }
+	/**
+	 * Sets the value of the jobRole property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setJobRole(String value) {
+		this.jobRole = value;
+	}
 
-    /**
-     * Sets the value of the personID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPersonID(String value) {
-        this.personID = value;
-    }
+	/**
+	 * Sets the value of the languagePreference property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLanguagePreference(String value) {
+		this.languagePreference = value;
+	}
 
-    /**
-     * Gets the value of the scin property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSCIN() {
-        return scin;
-    }
+	/**
+	 * Sets the value of the lastName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLastName(String value) {
+		this.lastName = value;
+	}
 
-    /**
-     * Sets the value of the scin property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSCIN(String value) {
-        this.scin = value;
-    }
+	/**
+	 * Sets the value of the middleName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setMiddleName(String value) {
+		this.middleName = value;
+	}
 
-    /**
-     * Gets the value of the nino property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNINO() {
-        return nino;
-    }
+	/**
+	 * Sets the value of the nino property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setNINO(String value) {
+		this.nino = value;
+	}
 
-    /**
-     * Sets the value of the nino property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNINO(String value) {
-        this.nino = value;
-    }
+	/**
+	 * Sets the value of the personID property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setPersonID(String value) {
+		this.personID = value;
+	}
 
-    /**
-     * Gets the value of the languagePreference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLanguagePreference() {
-        return languagePreference;
-    }
+	/**
+	 * Sets the value of the primaryContactFlag property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setPrimaryContactFlag(String value) {
+		this.primaryContactFlag = value;
+	}
 
-    /**
-     * Sets the value of the languagePreference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLanguagePreference(String value) {
-        this.languagePreference = value;
-    }
+	/**
+	 * Sets the value of the referenceCode property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setReferenceCode(String value) {
+		this.referenceCode = value;
+	}
 
-    /**
-     * Gets the value of the smsFlag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSmsFlag() {
-        return smsFlag;
-    }
+	/**
+	 * Sets the value of the scin property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSCIN(String value) {
+		this.scin = value;
+	}
 
-    /**
-     * Sets the value of the smsFlag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSmsFlag(String value) {
-        this.smsFlag = value;
-    }
+	/**
+	 * Sets the value of the smsFlag property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSmsFlag(String value) {
+		this.smsFlag = value;
+	}
 
-    /**
-     * Gets the value of the workPhoneNumExtn property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the workPhoneNumExtn property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getWorkPhoneNumExtn().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link String }
-     * 
-     * 
-     */
-    public List<String> getWorkPhoneNumExtn() {
-        if (workPhoneNumExtn == null) {
-            workPhoneNumExtn = new ArrayList<String>();
-        }
-        return this.workPhoneNumExtn;
-    }
+	/**
+	 * Sets the value of the title property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setTitle(String value) {
+		this.title = value;
+	}
 
 }

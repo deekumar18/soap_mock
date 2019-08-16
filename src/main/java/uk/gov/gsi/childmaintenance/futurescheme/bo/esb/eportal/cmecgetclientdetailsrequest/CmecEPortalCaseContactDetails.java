@@ -5,7 +5,6 @@
 // Generated on: 2019.08.15 at 01:35:12 PM BST 
 //
 
-
 package uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for CmecEPortalCaseContactDetails complex type.
+ * <p>
+ * Java class for CmecEPortalCaseContactDetails complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="CmecEPortalCaseContactDetails">
@@ -43,251 +44,216 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CmecEPortalCaseContactDetails", namespace = "http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecEPortalCaseContactDetails", propOrder = {
-    "contactFirstName",
-    "contactLastName",
-    "contactCaseRelation",
-    "contactId",
-    "contactBANCSAccNum",
-    "contactGender",
-    "contactSCIN",
-    "parentage",
-    "birthDate"
-})
+		"contactFirstName", "contactLastName", "contactCaseRelation", "contactId", "contactBANCSAccNum",
+		"contactGender", "contactSCIN", "parentage", "birthDate" })
 public class CmecEPortalCaseContactDetails {
 
-    @XmlElement(name = "ContactFirstName")
-    protected String contactFirstName;
-    @XmlElement(name = "ContactLastName")
-    protected String contactLastName;
-    @XmlElement(name = "ContactCaseRelation")
-    protected String contactCaseRelation;
-    @XmlElement(name = "ContactId")
-    protected String contactId;
-    @XmlElement(name = "ContactBANCSAccNum")
-    protected String contactBANCSAccNum;
-    @XmlElement(name = "ContactGender")
-    protected String contactGender;
-    @XmlElement(name = "ContactSCIN")
-    protected String contactSCIN;
-    @XmlElement(name = "Parentage")
-    protected String parentage;
-    @XmlElement(name = "BirthDate")
-    protected String birthDate;
+	@XmlElement(name = "BirthDate")
+	protected String birthDate;
+	@XmlElement(name = "ContactBANCSAccNum")
+	protected String contactBANCSAccNum;
+	@XmlElement(name = "ContactCaseRelation")
+	protected String contactCaseRelation;
+	@XmlElement(name = "ContactFirstName")
+	protected String contactFirstName;
+	@XmlElement(name = "ContactGender")
+	protected String contactGender;
+	@XmlElement(name = "ContactId")
+	protected String contactId;
+	@XmlElement(name = "ContactLastName")
+	protected String contactLastName;
+	@XmlElement(name = "ContactSCIN")
+	protected String contactSCIN;
+	@XmlElement(name = "Parentage")
+	protected String parentage;
 
-    /**
-     * Gets the value of the contactFirstName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContactFirstName() {
-        return contactFirstName;
-    }
+	/**
+	 * Gets the value of the birthDate property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getBirthDate() {
+		return birthDate;
+	}
 
-    /**
-     * Sets the value of the contactFirstName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContactFirstName(String value) {
-        this.contactFirstName = value;
-    }
+	/**
+	 * Gets the value of the contactBANCSAccNum property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getContactBANCSAccNum() {
+		return contactBANCSAccNum;
+	}
 
-    /**
-     * Gets the value of the contactLastName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContactLastName() {
-        return contactLastName;
-    }
+	/**
+	 * Gets the value of the contactCaseRelation property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getContactCaseRelation() {
+		return contactCaseRelation;
+	}
 
-    /**
-     * Sets the value of the contactLastName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContactLastName(String value) {
-        this.contactLastName = value;
-    }
+	/**
+	 * Gets the value of the contactFirstName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getContactFirstName() {
+		return contactFirstName;
+	}
 
-    /**
-     * Gets the value of the contactCaseRelation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContactCaseRelation() {
-        return contactCaseRelation;
-    }
+	/**
+	 * Gets the value of the contactGender property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getContactGender() {
+		return contactGender;
+	}
 
-    /**
-     * Sets the value of the contactCaseRelation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContactCaseRelation(String value) {
-        this.contactCaseRelation = value;
-    }
+	/**
+	 * Gets the value of the contactId property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getContactId() {
+		return contactId;
+	}
 
-    /**
-     * Gets the value of the contactId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContactId() {
-        return contactId;
-    }
+	/**
+	 * Gets the value of the contactLastName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getContactLastName() {
+		return contactLastName;
+	}
 
-    /**
-     * Sets the value of the contactId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContactId(String value) {
-        this.contactId = value;
-    }
+	/**
+	 * Gets the value of the contactSCIN property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getContactSCIN() {
+		return contactSCIN;
+	}
 
-    /**
-     * Gets the value of the contactBANCSAccNum property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContactBANCSAccNum() {
-        return contactBANCSAccNum;
-    }
+	/**
+	 * Gets the value of the parentage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getParentage() {
+		return parentage;
+	}
 
-    /**
-     * Sets the value of the contactBANCSAccNum property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContactBANCSAccNum(String value) {
-        this.contactBANCSAccNum = value;
-    }
+	/**
+	 * Sets the value of the birthDate property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setBirthDate(String value) {
+		this.birthDate = value;
+	}
 
-    /**
-     * Gets the value of the contactGender property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContactGender() {
-        return contactGender;
-    }
+	/**
+	 * Sets the value of the contactBANCSAccNum property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setContactBANCSAccNum(String value) {
+		this.contactBANCSAccNum = value;
+	}
 
-    /**
-     * Sets the value of the contactGender property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContactGender(String value) {
-        this.contactGender = value;
-    }
+	/**
+	 * Sets the value of the contactCaseRelation property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setContactCaseRelation(String value) {
+		this.contactCaseRelation = value;
+	}
 
-    /**
-     * Gets the value of the contactSCIN property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContactSCIN() {
-        return contactSCIN;
-    }
+	/**
+	 * Sets the value of the contactFirstName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setContactFirstName(String value) {
+		this.contactFirstName = value;
+	}
 
-    /**
-     * Sets the value of the contactSCIN property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContactSCIN(String value) {
-        this.contactSCIN = value;
-    }
+	/**
+	 * Sets the value of the contactGender property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setContactGender(String value) {
+		this.contactGender = value;
+	}
 
-    /**
-     * Gets the value of the parentage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getParentage() {
-        return parentage;
-    }
+	/**
+	 * Sets the value of the contactId property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setContactId(String value) {
+		this.contactId = value;
+	}
 
-    /**
-     * Sets the value of the parentage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setParentage(String value) {
-        this.parentage = value;
-    }
+	/**
+	 * Sets the value of the contactLastName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setContactLastName(String value) {
+		this.contactLastName = value;
+	}
 
-    /**
-     * Gets the value of the birthDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBirthDate() {
-        return birthDate;
-    }
+	/**
+	 * Sets the value of the contactSCIN property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setContactSCIN(String value) {
+		this.contactSCIN = value;
+	}
 
-    /**
-     * Sets the value of the birthDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBirthDate(String value) {
-        this.birthDate = value;
-    }
+	/**
+	 * Sets the value of the parentage property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setParentage(String value) {
+		this.parentage = value;
+	}
 
 }

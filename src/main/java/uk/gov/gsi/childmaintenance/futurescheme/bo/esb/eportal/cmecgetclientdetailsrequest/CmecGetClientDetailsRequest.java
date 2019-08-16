@@ -5,7 +5,6 @@
 // Generated on: 2019.08.14 at 11:16:02 AM BST 
 //
 
-
 package uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -14,11 +13,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for CmecGetClientDetailsRequest complex type.
+ * <p>
+ * Java class for CmecGetClientDetailsRequest complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="CmecGetClientDetailsRequest">
@@ -36,64 +37,55 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "CmecGetClientDetailsRequest", propOrder = {
-    "requestHeader",
-    "scin"
-})
-@XmlRootElement(name = "getClientDetails", namespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/interfaces/CMECGetClientDetailsWebService")
+@XmlType(name = "CmecGetClientDetailsRequest", propOrder = { "requestHeader", "scin" })
+@XmlRootElement(name = "getClientDetails", namespace = "http://www.childmaintenance.gsi.gov.uk/futurescheme/interfaces/CMECGetClientDetailsWebService")
 public class CmecGetClientDetailsRequest {
 
-    @XmlElement(name = "RequestHeader")
-    protected CMECHeader requestHeader;
-    @XmlElement(name = "SCIN", required = true)
-    protected String scin;
+	@XmlElement(name = "RequestHeader")
+	protected CMECHeader requestHeader;
+	@XmlElement(name = "SCIN", required = true)
+	protected String scin;
 
-    /**
-     * Gets the value of the requestHeader property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CMECHeader }
-     *     
-     */
-    public CMECHeader getRequestHeader() {
-        return requestHeader;
-    }
+	/**
+	 * Gets the value of the requestHeader property.
+	 * 
+	 * @return possible object is {@link CMECHeader }
+	 * 
+	 */
+	public CMECHeader getRequestHeader() {
+		return requestHeader;
+	}
 
-    /**
-     * Sets the value of the requestHeader property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CMECHeader }
-     *     
-     */
-    public void setRequestHeader(CMECHeader value) {
-        this.requestHeader = value;
-    }
+	/**
+	 * Gets the value of the scin property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSCIN() {
+		return scin;
+	}
 
-    /**
-     * Gets the value of the scin property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSCIN() {
-        return scin;
-    }
+	/**
+	 * Sets the value of the requestHeader property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link CMECHeader }
+	 * 
+	 */
+	public void setRequestHeader(CMECHeader value) {
+		this.requestHeader = value;
+	}
 
-    /**
-     * Sets the value of the scin property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSCIN(String value) {
-        this.scin = value;
-    }
+	/**
+	 * Sets the value of the scin property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSCIN(String value) {
+		this.scin = value;
+	}
 
 }

@@ -5,18 +5,19 @@
 // Generated on: 2019.08.09 at 03:57:43 PM BST 
 //
 
-
 package uk.gov.gsi.childmaintenance.futurescheme.bo.tam.updateexternaluser;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for UpdateExternalUser complex type.
+ * <p>
+ * Java class for UpdateExternalUser complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="UpdateExternalUser">
@@ -37,139 +38,118 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "UpdateExternalUser", propOrder = {
-    "userId",
-    "firstName",
-    "lastName",
-    "dob",
-    "brandingInfo"
-})
+@XmlType(name = "UpdateExternalUser", propOrder = { "userId", "firstName", "lastName", "dob", "brandingInfo" })
 public class UpdateExternalUser {
 
-    protected String userId;
-    protected String firstName;
-    protected String lastName;
-    protected String dob;
-    protected String brandingInfo;
+	protected String brandingInfo;
+	protected String dob;
+	protected String firstName;
+	protected String lastName;
+	protected String userId;
 
-    /**
-     * Gets the value of the userId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getUserId() {
-        return userId;
-    }
+	/**
+	 * Gets the value of the brandingInfo property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getBrandingInfo() {
+		return brandingInfo;
+	}
 
-    /**
-     * Sets the value of the userId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setUserId(String value) {
-        this.userId = value;
-    }
+	/**
+	 * Gets the value of the dob property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getDob() {
+		return dob;
+	}
 
-    /**
-     * Gets the value of the firstName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFirstName() {
-        return firstName;
-    }
+	/**
+	 * Gets the value of the firstName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getFirstName() {
+		return firstName;
+	}
 
-    /**
-     * Sets the value of the firstName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFirstName(String value) {
-        this.firstName = value;
-    }
+	/**
+	 * Gets the value of the lastName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLastName() {
+		return lastName;
+	}
 
-    /**
-     * Gets the value of the lastName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLastName() {
-        return lastName;
-    }
+	/**
+	 * Gets the value of the userId property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getUserId() {
+		return userId;
+	}
 
-    /**
-     * Sets the value of the lastName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLastName(String value) {
-        this.lastName = value;
-    }
+	/**
+	 * Sets the value of the brandingInfo property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setBrandingInfo(String value) {
+		this.brandingInfo = value;
+	}
 
-    /**
-     * Gets the value of the dob property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDob() {
-        return dob;
-    }
+	/**
+	 * Sets the value of the dob property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setDob(String value) {
+		this.dob = value;
+	}
 
-    /**
-     * Sets the value of the dob property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDob(String value) {
-        this.dob = value;
-    }
+	/**
+	 * Sets the value of the firstName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setFirstName(String value) {
+		this.firstName = value;
+	}
 
-    /**
-     * Gets the value of the brandingInfo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBrandingInfo() {
-        return brandingInfo;
-    }
+	/**
+	 * Sets the value of the lastName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLastName(String value) {
+		this.lastName = value;
+	}
 
-    /**
-     * Sets the value of the brandingInfo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBrandingInfo(String value) {
-        this.brandingInfo = value;
-    }
+	/**
+	 * Sets the value of the userId property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setUserId(String value) {
+		this.userId = value;
+	}
 
 }

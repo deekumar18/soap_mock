@@ -5,18 +5,19 @@
 // Generated on: 2019.08.14 at 11:16:02 AM BST 
 //
 
-
 package uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for CMECHeader complex type.
+ * <p>
+ * Java class for CMECHeader complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="CMECHeader">
@@ -45,320 +46,273 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CMECHeader", namespace = "http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/CMECHeader.xsd", propOrder = {
-    "serviceName",
-    "operation",
-    "reqSystemName",
-    "originatorID",
-    "originatorIP",
-    "sourceObjectId",
-    "branchNumber",
-    "seqNum",
-    "timeStamp",
-    "sensitiveAccessFlag",
-    "hostName",
-    "autoCompleteFlag"
-})
+		"serviceName", "operation", "reqSystemName", "originatorID", "originatorIP", "sourceObjectId", "branchNumber",
+		"seqNum", "timeStamp", "sensitiveAccessFlag", "hostName", "autoCompleteFlag" })
 public class CMECHeader {
 
-    protected String serviceName;
-    protected String operation;
-    protected String reqSystemName;
-    protected String originatorID;
-    protected String originatorIP;
-    protected String sourceObjectId;
-    protected String branchNumber;
-    protected String seqNum;
-    protected String timeStamp;
-    protected String sensitiveAccessFlag;
-    protected String hostName;
-    protected String autoCompleteFlag;
+	protected String autoCompleteFlag;
+	protected String branchNumber;
+	protected String hostName;
+	protected String operation;
+	protected String originatorID;
+	protected String originatorIP;
+	protected String reqSystemName;
+	protected String sensitiveAccessFlag;
+	protected String seqNum;
+	protected String serviceName;
+	protected String sourceObjectId;
+	protected String timeStamp;
 
-    /**
-     * Gets the value of the serviceName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getServiceName() {
-        return serviceName;
-    }
+	/**
+	 * Gets the value of the autoCompleteFlag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAutoCompleteFlag() {
+		return autoCompleteFlag;
+	}
 
-    /**
-     * Sets the value of the serviceName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setServiceName(String value) {
-        this.serviceName = value;
-    }
+	/**
+	 * Gets the value of the branchNumber property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getBranchNumber() {
+		return branchNumber;
+	}
 
-    /**
-     * Gets the value of the operation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOperation() {
-        return operation;
-    }
+	/**
+	 * Gets the value of the hostName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getHostName() {
+		return hostName;
+	}
 
-    /**
-     * Sets the value of the operation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOperation(String value) {
-        this.operation = value;
-    }
+	/**
+	 * Gets the value of the operation property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOperation() {
+		return operation;
+	}
 
-    /**
-     * Gets the value of the reqSystemName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getReqSystemName() {
-        return reqSystemName;
-    }
+	/**
+	 * Gets the value of the originatorID property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOriginatorID() {
+		return originatorID;
+	}
 
-    /**
-     * Sets the value of the reqSystemName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setReqSystemName(String value) {
-        this.reqSystemName = value;
-    }
+	/**
+	 * Gets the value of the originatorIP property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getOriginatorIP() {
+		return originatorIP;
+	}
 
-    /**
-     * Gets the value of the originatorID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOriginatorID() {
-        return originatorID;
-    }
+	/**
+	 * Gets the value of the reqSystemName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getReqSystemName() {
+		return reqSystemName;
+	}
 
-    /**
-     * Sets the value of the originatorID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOriginatorID(String value) {
-        this.originatorID = value;
-    }
+	/**
+	 * Gets the value of the sensitiveAccessFlag property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSensitiveAccessFlag() {
+		return sensitiveAccessFlag;
+	}
 
-    /**
-     * Gets the value of the originatorIP property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOriginatorIP() {
-        return originatorIP;
-    }
+	/**
+	 * Gets the value of the seqNum property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSeqNum() {
+		return seqNum;
+	}
 
-    /**
-     * Sets the value of the originatorIP property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOriginatorIP(String value) {
-        this.originatorIP = value;
-    }
+	/**
+	 * Gets the value of the serviceName property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getServiceName() {
+		return serviceName;
+	}
 
-    /**
-     * Gets the value of the sourceObjectId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSourceObjectId() {
-        return sourceObjectId;
-    }
+	/**
+	 * Gets the value of the sourceObjectId property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSourceObjectId() {
+		return sourceObjectId;
+	}
 
-    /**
-     * Sets the value of the sourceObjectId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSourceObjectId(String value) {
-        this.sourceObjectId = value;
-    }
+	/**
+	 * Gets the value of the timeStamp property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTimeStamp() {
+		return timeStamp;
+	}
 
-    /**
-     * Gets the value of the branchNumber property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBranchNumber() {
-        return branchNumber;
-    }
+	/**
+	 * Sets the value of the autoCompleteFlag property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAutoCompleteFlag(String value) {
+		this.autoCompleteFlag = value;
+	}
 
-    /**
-     * Sets the value of the branchNumber property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBranchNumber(String value) {
-        this.branchNumber = value;
-    }
+	/**
+	 * Sets the value of the branchNumber property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setBranchNumber(String value) {
+		this.branchNumber = value;
+	}
 
-    /**
-     * Gets the value of the seqNum property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSeqNum() {
-        return seqNum;
-    }
+	/**
+	 * Sets the value of the hostName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setHostName(String value) {
+		this.hostName = value;
+	}
 
-    /**
-     * Sets the value of the seqNum property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSeqNum(String value) {
-        this.seqNum = value;
-    }
+	/**
+	 * Sets the value of the operation property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setOperation(String value) {
+		this.operation = value;
+	}
 
-    /**
-     * Gets the value of the timeStamp property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTimeStamp() {
-        return timeStamp;
-    }
+	/**
+	 * Sets the value of the originatorID property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setOriginatorID(String value) {
+		this.originatorID = value;
+	}
 
-    /**
-     * Sets the value of the timeStamp property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTimeStamp(String value) {
-        this.timeStamp = value;
-    }
+	/**
+	 * Sets the value of the originatorIP property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setOriginatorIP(String value) {
+		this.originatorIP = value;
+	}
 
-    /**
-     * Gets the value of the sensitiveAccessFlag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSensitiveAccessFlag() {
-        return sensitiveAccessFlag;
-    }
+	/**
+	 * Sets the value of the reqSystemName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setReqSystemName(String value) {
+		this.reqSystemName = value;
+	}
 
-    /**
-     * Sets the value of the sensitiveAccessFlag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSensitiveAccessFlag(String value) {
-        this.sensitiveAccessFlag = value;
-    }
+	/**
+	 * Sets the value of the sensitiveAccessFlag property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSensitiveAccessFlag(String value) {
+		this.sensitiveAccessFlag = value;
+	}
 
-    /**
-     * Gets the value of the hostName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHostName() {
-        return hostName;
-    }
+	/**
+	 * Sets the value of the seqNum property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSeqNum(String value) {
+		this.seqNum = value;
+	}
 
-    /**
-     * Sets the value of the hostName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHostName(String value) {
-        this.hostName = value;
-    }
+	/**
+	 * Sets the value of the serviceName property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setServiceName(String value) {
+		this.serviceName = value;
+	}
 
-    /**
-     * Gets the value of the autoCompleteFlag property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAutoCompleteFlag() {
-        return autoCompleteFlag;
-    }
+	/**
+	 * Sets the value of the sourceObjectId property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSourceObjectId(String value) {
+		this.sourceObjectId = value;
+	}
 
-    /**
-     * Sets the value of the autoCompleteFlag property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAutoCompleteFlag(String value) {
-        this.autoCompleteFlag = value;
-    }
+	/**
+	 * Sets the value of the timeStamp property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setTimeStamp(String value) {
+		this.timeStamp = value;
+	}
 
 }

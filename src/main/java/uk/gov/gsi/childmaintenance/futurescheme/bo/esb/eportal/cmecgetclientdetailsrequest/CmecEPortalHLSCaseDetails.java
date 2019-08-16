@@ -5,21 +5,23 @@
 // Generated on: 2019.08.15 at 01:35:12 PM BST 
 //
 
-
 package uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for CmecEPortalHLSCaseDetails complex type.
+ * <p>
+ * Java class for CmecEPortalHLSCaseDetails complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="CmecEPortalHLSCaseDetails">
@@ -61,716 +63,620 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "CmecEPortalHLSCaseDetails", propOrder = {
-    "caseNum",
-    "name",
-    "applicantType",
-    "caseId",
-    "relationshiptype",
-    "anniversaryDate",
-    "weeklyLiabilityAmount",
-    "monthlyLiabilityAmount",
-    "liabilityAmount",
-    "annualLiabilityAmount",
-    "caseEffectiveDate",
-    "initialDate",
-    "status",
-    "subStatus",
-    "caseStage",
-    "cmecServiceType",
-    "cmecAnnualARNrpCCAmt",
-    "cmecAnnualARPwcCCAmt",
-    "cmecFullAnnualNrpCCAmt",
-    "cmecFullAnnualPwcCCAmt",
-    "cmecWeeklyNrpCCAmt",
-    "cmecWeeklyPwcCCAmt",
-    "cmecNrpOgmCharge",
-    "cmecPwcCOgmCharge",
-    "cmecNrpPmtFrequency",
-    "caseContactDetails"
-})
+@XmlType(name = "CmecEPortalHLSCaseDetails", propOrder = { "caseNum", "name", "applicantType", "caseId",
+		"relationshiptype", "anniversaryDate", "weeklyLiabilityAmount", "monthlyLiabilityAmount", "liabilityAmount",
+		"annualLiabilityAmount", "caseEffectiveDate", "initialDate", "status", "subStatus", "caseStage",
+		"cmecServiceType", "cmecAnnualARNrpCCAmt", "cmecAnnualARPwcCCAmt", "cmecFullAnnualNrpCCAmt",
+		"cmecFullAnnualPwcCCAmt", "cmecWeeklyNrpCCAmt", "cmecWeeklyPwcCCAmt", "cmecNrpOgmCharge", "cmecPwcCOgmCharge",
+		"cmecNrpPmtFrequency", "caseContactDetails" })
 public class CmecEPortalHLSCaseDetails {
 
-    @XmlElement(name = "CaseNum")
-    protected String caseNum;
-    @XmlElement(name = "Name")
-    protected String name;
-    @XmlElement(name = "ApplicantType")
-    protected String applicantType;
-    @XmlElement(name = "CaseId")
-    protected String caseId;
-    @XmlElement(name = "Relationshiptype")
-    protected String relationshiptype;
-    @XmlElement(name = "AnniversaryDate")
-    protected String anniversaryDate;
-    @XmlElement(name = "WeeklyLiabilityAmount")
-    protected String weeklyLiabilityAmount;
-    @XmlElement(name = "MonthlyLiabilityAmount")
-    protected String monthlyLiabilityAmount;
-    @XmlElement(name = "LiabilityAmount")
-    protected String liabilityAmount;
-    @XmlElement(name = "AnnualLiabilityAmount")
-    protected String annualLiabilityAmount;
-    @XmlElement(name = "CaseEffectiveDate")
-    protected String caseEffectiveDate;
-    @XmlElement(name = "InitialDate")
-    protected String initialDate;
-    @XmlElement(name = "Status")
-    protected String status;
-    @XmlElement(name = "SubStatus")
-    protected String subStatus;
-    @XmlElement(name = "CaseStage")
-    protected String caseStage;
-    @XmlElement(name = "CMECServiceType")
-    protected String cmecServiceType;
-    @XmlElement(name = "CMECAnnualARNrpCCAmt")
-    protected String cmecAnnualARNrpCCAmt;
-    @XmlElement(name = "CMECAnnualARPwcCCAmt")
-    protected String cmecAnnualARPwcCCAmt;
-    @XmlElement(name = "CMECFullAnnualNrpCCAmt")
-    protected String cmecFullAnnualNrpCCAmt;
-    @XmlElement(name = "CMECFullAnnualPwcCCAmt")
-    protected String cmecFullAnnualPwcCCAmt;
-    @XmlElement(name = "CMECWeeklyNrpCCAmt")
-    protected String cmecWeeklyNrpCCAmt;
-    @XmlElement(name = "CMECWeeklyPwcCCAmt")
-    protected String cmecWeeklyPwcCCAmt;
-    @XmlElement(name = "CMECNrpOgmCharge")
-    protected String cmecNrpOgmCharge;
-    @XmlElement(name = "CMECPwcCOgmCharge")
-    protected String cmecPwcCOgmCharge;
-    @XmlElement(name = "CMECNrpPmtFrequency")
-    protected String cmecNrpPmtFrequency;
-    @XmlElement(name = "CaseContactDetails")
-    protected List<CmecEPortalCaseContactDetails> caseContactDetails;
+	@XmlElement(name = "AnniversaryDate")
+	protected String anniversaryDate;
+	@XmlElement(name = "AnnualLiabilityAmount")
+	protected String annualLiabilityAmount;
+	@XmlElement(name = "ApplicantType")
+	protected String applicantType;
+	@XmlElement(name = "CaseContactDetails")
+	protected List<CmecEPortalCaseContactDetails> caseContactDetails;
+	@XmlElement(name = "CaseEffectiveDate")
+	protected String caseEffectiveDate;
+	@XmlElement(name = "CaseId")
+	protected String caseId;
+	@XmlElement(name = "CaseNum")
+	protected String caseNum;
+	@XmlElement(name = "CaseStage")
+	protected String caseStage;
+	@XmlElement(name = "CMECAnnualARNrpCCAmt")
+	protected String cmecAnnualARNrpCCAmt;
+	@XmlElement(name = "CMECAnnualARPwcCCAmt")
+	protected String cmecAnnualARPwcCCAmt;
+	@XmlElement(name = "CMECFullAnnualNrpCCAmt")
+	protected String cmecFullAnnualNrpCCAmt;
+	@XmlElement(name = "CMECFullAnnualPwcCCAmt")
+	protected String cmecFullAnnualPwcCCAmt;
+	@XmlElement(name = "CMECNrpOgmCharge")
+	protected String cmecNrpOgmCharge;
+	@XmlElement(name = "CMECNrpPmtFrequency")
+	protected String cmecNrpPmtFrequency;
+	@XmlElement(name = "CMECPwcCOgmCharge")
+	protected String cmecPwcCOgmCharge;
+	@XmlElement(name = "CMECServiceType")
+	protected String cmecServiceType;
+	@XmlElement(name = "CMECWeeklyNrpCCAmt")
+	protected String cmecWeeklyNrpCCAmt;
+	@XmlElement(name = "CMECWeeklyPwcCCAmt")
+	protected String cmecWeeklyPwcCCAmt;
+	@XmlElement(name = "InitialDate")
+	protected String initialDate;
+	@XmlElement(name = "LiabilityAmount")
+	protected String liabilityAmount;
+	@XmlElement(name = "MonthlyLiabilityAmount")
+	protected String monthlyLiabilityAmount;
+	@XmlElement(name = "Name")
+	protected String name;
+	@XmlElement(name = "Relationshiptype")
+	protected String relationshiptype;
+	@XmlElement(name = "Status")
+	protected String status;
+	@XmlElement(name = "SubStatus")
+	protected String subStatus;
+	@XmlElement(name = "WeeklyLiabilityAmount")
+	protected String weeklyLiabilityAmount;
 
-    /**
-     * Gets the value of the caseNum property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCaseNum() {
-        return caseNum;
-    }
+	/**
+	 * Gets the value of the anniversaryDate property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAnniversaryDate() {
+		return anniversaryDate;
+	}
 
-    /**
-     * Sets the value of the caseNum property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCaseNum(String value) {
-        this.caseNum = value;
-    }
+	/**
+	 * Gets the value of the annualLiabilityAmount property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAnnualLiabilityAmount() {
+		return annualLiabilityAmount;
+	}
 
-    /**
-     * Gets the value of the name property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getName() {
-        return name;
-    }
+	/**
+	 * Gets the value of the applicantType property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getApplicantType() {
+		return applicantType;
+	}
 
-    /**
-     * Sets the value of the name property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setName(String value) {
-        this.name = value;
-    }
+	/**
+	 * Gets the value of the caseContactDetails property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the caseContactDetails property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getCaseContactDetails().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link CmecEPortalCaseContactDetails }
+	 * 
+	 * 
+	 */
+	public List<CmecEPortalCaseContactDetails> getCaseContactDetails() {
+		if (caseContactDetails == null) {
+			caseContactDetails = new ArrayList<CmecEPortalCaseContactDetails>();
+		}
+		return this.caseContactDetails;
+	}
 
-    /**
-     * Gets the value of the applicantType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getApplicantType() {
-        return applicantType;
-    }
+	/**
+	 * Gets the value of the caseEffectiveDate property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCaseEffectiveDate() {
+		return caseEffectiveDate;
+	}
 
-    /**
-     * Sets the value of the applicantType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setApplicantType(String value) {
-        this.applicantType = value;
-    }
+	/**
+	 * Gets the value of the caseId property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCaseId() {
+		return caseId;
+	}
 
-    /**
-     * Gets the value of the caseId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCaseId() {
-        return caseId;
-    }
+	/**
+	 * Gets the value of the caseNum property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCaseNum() {
+		return caseNum;
+	}
 
-    /**
-     * Sets the value of the caseId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCaseId(String value) {
-        this.caseId = value;
-    }
+	/**
+	 * Gets the value of the caseStage property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCaseStage() {
+		return caseStage;
+	}
 
-    /**
-     * Gets the value of the relationshiptype property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRelationshiptype() {
-        return relationshiptype;
-    }
+	/**
+	 * Gets the value of the cmecAnnualARNrpCCAmt property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECAnnualARNrpCCAmt() {
+		return cmecAnnualARNrpCCAmt;
+	}
 
-    /**
-     * Sets the value of the relationshiptype property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRelationshiptype(String value) {
-        this.relationshiptype = value;
-    }
+	/**
+	 * Gets the value of the cmecAnnualARPwcCCAmt property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECAnnualARPwcCCAmt() {
+		return cmecAnnualARPwcCCAmt;
+	}
 
-    /**
-     * Gets the value of the anniversaryDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAnniversaryDate() {
-        return anniversaryDate;
-    }
+	/**
+	 * Gets the value of the cmecFullAnnualNrpCCAmt property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECFullAnnualNrpCCAmt() {
+		return cmecFullAnnualNrpCCAmt;
+	}
 
-    /**
-     * Sets the value of the anniversaryDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAnniversaryDate(String value) {
-        this.anniversaryDate = value;
-    }
+	/**
+	 * Gets the value of the cmecFullAnnualPwcCCAmt property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECFullAnnualPwcCCAmt() {
+		return cmecFullAnnualPwcCCAmt;
+	}
 
-    /**
-     * Gets the value of the weeklyLiabilityAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getWeeklyLiabilityAmount() {
-        return weeklyLiabilityAmount;
-    }
+	/**
+	 * Gets the value of the cmecNrpOgmCharge property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECNrpOgmCharge() {
+		return cmecNrpOgmCharge;
+	}
 
-    /**
-     * Sets the value of the weeklyLiabilityAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setWeeklyLiabilityAmount(String value) {
-        this.weeklyLiabilityAmount = value;
-    }
+	/**
+	 * Gets the value of the cmecNrpPmtFrequency property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECNrpPmtFrequency() {
+		return cmecNrpPmtFrequency;
+	}
 
-    /**
-     * Gets the value of the monthlyLiabilityAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMonthlyLiabilityAmount() {
-        return monthlyLiabilityAmount;
-    }
+	/**
+	 * Gets the value of the cmecPwcCOgmCharge property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECPwcCOgmCharge() {
+		return cmecPwcCOgmCharge;
+	}
 
-    /**
-     * Sets the value of the monthlyLiabilityAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMonthlyLiabilityAmount(String value) {
-        this.monthlyLiabilityAmount = value;
-    }
+	/**
+	 * Gets the value of the cmecServiceType property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECServiceType() {
+		return cmecServiceType;
+	}
 
-    /**
-     * Gets the value of the liabilityAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLiabilityAmount() {
-        return liabilityAmount;
-    }
+	/**
+	 * Gets the value of the cmecWeeklyNrpCCAmt property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECWeeklyNrpCCAmt() {
+		return cmecWeeklyNrpCCAmt;
+	}
 
-    /**
-     * Sets the value of the liabilityAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLiabilityAmount(String value) {
-        this.liabilityAmount = value;
-    }
+	/**
+	 * Gets the value of the cmecWeeklyPwcCCAmt property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCMECWeeklyPwcCCAmt() {
+		return cmecWeeklyPwcCCAmt;
+	}
 
-    /**
-     * Gets the value of the annualLiabilityAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAnnualLiabilityAmount() {
-        return annualLiabilityAmount;
-    }
+	/**
+	 * Gets the value of the initialDate property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getInitialDate() {
+		return initialDate;
+	}
 
-    /**
-     * Sets the value of the annualLiabilityAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAnnualLiabilityAmount(String value) {
-        this.annualLiabilityAmount = value;
-    }
+	/**
+	 * Gets the value of the liabilityAmount property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLiabilityAmount() {
+		return liabilityAmount;
+	}
 
-    /**
-     * Gets the value of the caseEffectiveDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCaseEffectiveDate() {
-        return caseEffectiveDate;
-    }
+	/**
+	 * Gets the value of the monthlyLiabilityAmount property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getMonthlyLiabilityAmount() {
+		return monthlyLiabilityAmount;
+	}
 
-    /**
-     * Sets the value of the caseEffectiveDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCaseEffectiveDate(String value) {
-        this.caseEffectiveDate = value;
-    }
+	/**
+	 * Gets the value of the name property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getName() {
+		return name;
+	}
 
-    /**
-     * Gets the value of the initialDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getInitialDate() {
-        return initialDate;
-    }
+	/**
+	 * Gets the value of the relationshiptype property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getRelationshiptype() {
+		return relationshiptype;
+	}
 
-    /**
-     * Sets the value of the initialDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setInitialDate(String value) {
-        this.initialDate = value;
-    }
+	/**
+	 * Gets the value of the status property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStatus() {
+		return status;
+	}
 
-    /**
-     * Gets the value of the status property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStatus() {
-        return status;
-    }
+	/**
+	 * Gets the value of the subStatus property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSubStatus() {
+		return subStatus;
+	}
 
-    /**
-     * Sets the value of the status property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStatus(String value) {
-        this.status = value;
-    }
+	/**
+	 * Gets the value of the weeklyLiabilityAmount property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getWeeklyLiabilityAmount() {
+		return weeklyLiabilityAmount;
+	}
 
-    /**
-     * Gets the value of the subStatus property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSubStatus() {
-        return subStatus;
-    }
+	/**
+	 * Sets the value of the anniversaryDate property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAnniversaryDate(String value) {
+		this.anniversaryDate = value;
+	}
 
-    /**
-     * Sets the value of the subStatus property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSubStatus(String value) {
-        this.subStatus = value;
-    }
+	/**
+	 * Sets the value of the annualLiabilityAmount property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAnnualLiabilityAmount(String value) {
+		this.annualLiabilityAmount = value;
+	}
 
-    /**
-     * Gets the value of the caseStage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCaseStage() {
-        return caseStage;
-    }
+	/**
+	 * Sets the value of the applicantType property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setApplicantType(String value) {
+		this.applicantType = value;
+	}
 
-    /**
-     * Sets the value of the caseStage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCaseStage(String value) {
-        this.caseStage = value;
-    }
+	/**
+	 * Sets the value of the caseEffectiveDate property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCaseEffectiveDate(String value) {
+		this.caseEffectiveDate = value;
+	}
 
-    /**
-     * Gets the value of the cmecServiceType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECServiceType() {
-        return cmecServiceType;
-    }
+	/**
+	 * Sets the value of the caseId property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCaseId(String value) {
+		this.caseId = value;
+	}
 
-    /**
-     * Sets the value of the cmecServiceType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECServiceType(String value) {
-        this.cmecServiceType = value;
-    }
+	/**
+	 * Sets the value of the caseNum property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCaseNum(String value) {
+		this.caseNum = value;
+	}
 
-    /**
-     * Gets the value of the cmecAnnualARNrpCCAmt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECAnnualARNrpCCAmt() {
-        return cmecAnnualARNrpCCAmt;
-    }
+	/**
+	 * Sets the value of the caseStage property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCaseStage(String value) {
+		this.caseStage = value;
+	}
 
-    /**
-     * Sets the value of the cmecAnnualARNrpCCAmt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECAnnualARNrpCCAmt(String value) {
-        this.cmecAnnualARNrpCCAmt = value;
-    }
+	/**
+	 * Sets the value of the cmecAnnualARNrpCCAmt property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECAnnualARNrpCCAmt(String value) {
+		this.cmecAnnualARNrpCCAmt = value;
+	}
 
-    /**
-     * Gets the value of the cmecAnnualARPwcCCAmt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECAnnualARPwcCCAmt() {
-        return cmecAnnualARPwcCCAmt;
-    }
+	/**
+	 * Sets the value of the cmecAnnualARPwcCCAmt property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECAnnualARPwcCCAmt(String value) {
+		this.cmecAnnualARPwcCCAmt = value;
+	}
 
-    /**
-     * Sets the value of the cmecAnnualARPwcCCAmt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECAnnualARPwcCCAmt(String value) {
-        this.cmecAnnualARPwcCCAmt = value;
-    }
+	/**
+	 * Sets the value of the cmecFullAnnualNrpCCAmt property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECFullAnnualNrpCCAmt(String value) {
+		this.cmecFullAnnualNrpCCAmt = value;
+	}
 
-    /**
-     * Gets the value of the cmecFullAnnualNrpCCAmt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECFullAnnualNrpCCAmt() {
-        return cmecFullAnnualNrpCCAmt;
-    }
+	/**
+	 * Sets the value of the cmecFullAnnualPwcCCAmt property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECFullAnnualPwcCCAmt(String value) {
+		this.cmecFullAnnualPwcCCAmt = value;
+	}
 
-    /**
-     * Sets the value of the cmecFullAnnualNrpCCAmt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECFullAnnualNrpCCAmt(String value) {
-        this.cmecFullAnnualNrpCCAmt = value;
-    }
+	/**
+	 * Sets the value of the cmecNrpOgmCharge property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECNrpOgmCharge(String value) {
+		this.cmecNrpOgmCharge = value;
+	}
 
-    /**
-     * Gets the value of the cmecFullAnnualPwcCCAmt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECFullAnnualPwcCCAmt() {
-        return cmecFullAnnualPwcCCAmt;
-    }
+	/**
+	 * Sets the value of the cmecNrpPmtFrequency property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECNrpPmtFrequency(String value) {
+		this.cmecNrpPmtFrequency = value;
+	}
 
-    /**
-     * Sets the value of the cmecFullAnnualPwcCCAmt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECFullAnnualPwcCCAmt(String value) {
-        this.cmecFullAnnualPwcCCAmt = value;
-    }
+	/**
+	 * Sets the value of the cmecPwcCOgmCharge property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECPwcCOgmCharge(String value) {
+		this.cmecPwcCOgmCharge = value;
+	}
 
-    /**
-     * Gets the value of the cmecWeeklyNrpCCAmt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECWeeklyNrpCCAmt() {
-        return cmecWeeklyNrpCCAmt;
-    }
+	/**
+	 * Sets the value of the cmecServiceType property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECServiceType(String value) {
+		this.cmecServiceType = value;
+	}
 
-    /**
-     * Sets the value of the cmecWeeklyNrpCCAmt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECWeeklyNrpCCAmt(String value) {
-        this.cmecWeeklyNrpCCAmt = value;
-    }
+	/**
+	 * Sets the value of the cmecWeeklyNrpCCAmt property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECWeeklyNrpCCAmt(String value) {
+		this.cmecWeeklyNrpCCAmt = value;
+	}
 
-    /**
-     * Gets the value of the cmecWeeklyPwcCCAmt property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECWeeklyPwcCCAmt() {
-        return cmecWeeklyPwcCCAmt;
-    }
+	/**
+	 * Sets the value of the cmecWeeklyPwcCCAmt property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCMECWeeklyPwcCCAmt(String value) {
+		this.cmecWeeklyPwcCCAmt = value;
+	}
 
-    /**
-     * Sets the value of the cmecWeeklyPwcCCAmt property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECWeeklyPwcCCAmt(String value) {
-        this.cmecWeeklyPwcCCAmt = value;
-    }
+	/**
+	 * Sets the value of the initialDate property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setInitialDate(String value) {
+		this.initialDate = value;
+	}
 
-    /**
-     * Gets the value of the cmecNrpOgmCharge property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECNrpOgmCharge() {
-        return cmecNrpOgmCharge;
-    }
+	/**
+	 * Sets the value of the liabilityAmount property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLiabilityAmount(String value) {
+		this.liabilityAmount = value;
+	}
 
-    /**
-     * Sets the value of the cmecNrpOgmCharge property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECNrpOgmCharge(String value) {
-        this.cmecNrpOgmCharge = value;
-    }
+	/**
+	 * Sets the value of the monthlyLiabilityAmount property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setMonthlyLiabilityAmount(String value) {
+		this.monthlyLiabilityAmount = value;
+	}
 
-    /**
-     * Gets the value of the cmecPwcCOgmCharge property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECPwcCOgmCharge() {
-        return cmecPwcCOgmCharge;
-    }
+	/**
+	 * Sets the value of the name property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setName(String value) {
+		this.name = value;
+	}
 
-    /**
-     * Sets the value of the cmecPwcCOgmCharge property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECPwcCOgmCharge(String value) {
-        this.cmecPwcCOgmCharge = value;
-    }
+	/**
+	 * Sets the value of the relationshiptype property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setRelationshiptype(String value) {
+		this.relationshiptype = value;
+	}
 
-    /**
-     * Gets the value of the cmecNrpPmtFrequency property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCMECNrpPmtFrequency() {
-        return cmecNrpPmtFrequency;
-    }
+	/**
+	 * Sets the value of the status property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setStatus(String value) {
+		this.status = value;
+	}
 
-    /**
-     * Sets the value of the cmecNrpPmtFrequency property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCMECNrpPmtFrequency(String value) {
-        this.cmecNrpPmtFrequency = value;
-    }
+	/**
+	 * Sets the value of the subStatus property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSubStatus(String value) {
+		this.subStatus = value;
+	}
 
-    /**
-     * Gets the value of the caseContactDetails property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the caseContactDetails property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getCaseContactDetails().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link CmecEPortalCaseContactDetails }
-     * 
-     * 
-     */
-    public List<CmecEPortalCaseContactDetails> getCaseContactDetails() {
-        if (caseContactDetails == null) {
-            caseContactDetails = new ArrayList<CmecEPortalCaseContactDetails>();
-        }
-        return this.caseContactDetails;
-    }
+	/**
+	 * Sets the value of the weeklyLiabilityAmount property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setWeeklyLiabilityAmount(String value) {
+		this.weeklyLiabilityAmount = value;
+	}
 
 }

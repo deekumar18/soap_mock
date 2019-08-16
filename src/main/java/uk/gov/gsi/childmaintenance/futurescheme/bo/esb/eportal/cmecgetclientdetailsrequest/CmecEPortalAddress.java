@@ -5,7 +5,6 @@
 // Generated on: 2019.08.15 at 01:35:12 PM BST 
 //
 
-
 package uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,11 +12,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for CmecEPortalAddress complex type.
+ * <p>
+ * Java class for CmecEPortalAddress complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="CmecEPortalAddress">
@@ -52,494 +53,424 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CmecEPortalAddress", namespace = "http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/eportal/CmecEPortalAddress", propOrder = {
-    "addressLine1",
-    "addressLine2",
-    "addressLine3",
-    "addressLine4",
-    "addressLine5",
-    "county",
-    "country",
-    "addressType",
-    "postCode",
-    "isPrimary",
-    "addressID",
-    "state",
-    "city",
-    "addressSource",
-    "deliveryPointSuffix",
-    "startDate",
-    "endDate",
-    "location"
-})
+		"addressLine1", "addressLine2", "addressLine3", "addressLine4", "addressLine5", "county", "country",
+		"addressType", "postCode", "isPrimary", "addressID", "state", "city", "addressSource", "deliveryPointSuffix",
+		"startDate", "endDate", "location" })
 public class CmecEPortalAddress {
 
-    @XmlElement(name = "AddressLine1")
-    protected String addressLine1;
-    @XmlElement(name = "AddressLine2")
-    protected String addressLine2;
-    @XmlElement(name = "AddressLine3")
-    protected String addressLine3;
-    @XmlElement(name = "AddressLine4")
-    protected String addressLine4;
-    @XmlElement(name = "AddressLine5")
-    protected String addressLine5;
-    @XmlElement(name = "County")
-    protected String county;
-    @XmlElement(name = "Country")
-    protected String country;
-    @XmlElement(name = "AddressType")
-    protected String addressType;
-    @XmlElement(name = "PostCode")
-    protected String postCode;
-    @XmlElement(name = "IsPrimary")
-    protected String isPrimary;
-    @XmlElement(name = "AddressID")
-    protected String addressID;
-    @XmlElement(name = "State")
-    protected String state;
-    @XmlElement(name = "City")
-    protected String city;
-    @XmlElement(name = "AddressSource")
-    protected String addressSource;
-    @XmlElement(name = "DeliveryPointSuffix")
-    protected String deliveryPointSuffix;
-    @XmlElement(name = "StartDate")
-    protected String startDate;
-    @XmlElement(name = "EndDate")
-    protected String endDate;
-    @XmlElement(name = "Location")
-    protected String location;
+	@XmlElement(name = "AddressID")
+	protected String addressID;
+	@XmlElement(name = "AddressLine1")
+	protected String addressLine1;
+	@XmlElement(name = "AddressLine2")
+	protected String addressLine2;
+	@XmlElement(name = "AddressLine3")
+	protected String addressLine3;
+	@XmlElement(name = "AddressLine4")
+	protected String addressLine4;
+	@XmlElement(name = "AddressLine5")
+	protected String addressLine5;
+	@XmlElement(name = "AddressSource")
+	protected String addressSource;
+	@XmlElement(name = "AddressType")
+	protected String addressType;
+	@XmlElement(name = "City")
+	protected String city;
+	@XmlElement(name = "Country")
+	protected String country;
+	@XmlElement(name = "County")
+	protected String county;
+	@XmlElement(name = "DeliveryPointSuffix")
+	protected String deliveryPointSuffix;
+	@XmlElement(name = "EndDate")
+	protected String endDate;
+	@XmlElement(name = "IsPrimary")
+	protected String isPrimary;
+	@XmlElement(name = "Location")
+	protected String location;
+	@XmlElement(name = "PostCode")
+	protected String postCode;
+	@XmlElement(name = "StartDate")
+	protected String startDate;
+	@XmlElement(name = "State")
+	protected String state;
 
-    /**
-     * Gets the value of the addressLine1 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressLine1() {
-        return addressLine1;
-    }
+	/**
+	 * Gets the value of the addressID property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAddressID() {
+		return addressID;
+	}
 
-    /**
-     * Sets the value of the addressLine1 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressLine1(String value) {
-        this.addressLine1 = value;
-    }
+	/**
+	 * Gets the value of the addressLine1 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAddressLine1() {
+		return addressLine1;
+	}
 
-    /**
-     * Gets the value of the addressLine2 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressLine2() {
-        return addressLine2;
-    }
+	/**
+	 * Gets the value of the addressLine2 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAddressLine2() {
+		return addressLine2;
+	}
 
-    /**
-     * Sets the value of the addressLine2 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressLine2(String value) {
-        this.addressLine2 = value;
-    }
+	/**
+	 * Gets the value of the addressLine3 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAddressLine3() {
+		return addressLine3;
+	}
 
-    /**
-     * Gets the value of the addressLine3 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressLine3() {
-        return addressLine3;
-    }
+	/**
+	 * Gets the value of the addressLine4 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAddressLine4() {
+		return addressLine4;
+	}
 
-    /**
-     * Sets the value of the addressLine3 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressLine3(String value) {
-        this.addressLine3 = value;
-    }
+	/**
+	 * Gets the value of the addressLine5 property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAddressLine5() {
+		return addressLine5;
+	}
 
-    /**
-     * Gets the value of the addressLine4 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressLine4() {
-        return addressLine4;
-    }
+	/**
+	 * Gets the value of the addressSource property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAddressSource() {
+		return addressSource;
+	}
 
-    /**
-     * Sets the value of the addressLine4 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressLine4(String value) {
-        this.addressLine4 = value;
-    }
+	/**
+	 * Gets the value of the addressType property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAddressType() {
+		return addressType;
+	}
 
-    /**
-     * Gets the value of the addressLine5 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressLine5() {
-        return addressLine5;
-    }
+	/**
+	 * Gets the value of the city property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCity() {
+		return city;
+	}
 
-    /**
-     * Sets the value of the addressLine5 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressLine5(String value) {
-        this.addressLine5 = value;
-    }
+	/**
+	 * Gets the value of the country property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCountry() {
+		return country;
+	}
 
-    /**
-     * Gets the value of the county property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCounty() {
-        return county;
-    }
+	/**
+	 * Gets the value of the county property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCounty() {
+		return county;
+	}
 
-    /**
-     * Sets the value of the county property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCounty(String value) {
-        this.county = value;
-    }
+	/**
+	 * Gets the value of the deliveryPointSuffix property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getDeliveryPointSuffix() {
+		return deliveryPointSuffix;
+	}
 
-    /**
-     * Gets the value of the country property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCountry() {
-        return country;
-    }
+	/**
+	 * Gets the value of the endDate property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getEndDate() {
+		return endDate;
+	}
 
-    /**
-     * Sets the value of the country property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCountry(String value) {
-        this.country = value;
-    }
+	/**
+	 * Gets the value of the isPrimary property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getIsPrimary() {
+		return isPrimary;
+	}
 
-    /**
-     * Gets the value of the addressType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressType() {
-        return addressType;
-    }
+	/**
+	 * Gets the value of the location property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLocation() {
+		return location;
+	}
 
-    /**
-     * Sets the value of the addressType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressType(String value) {
-        this.addressType = value;
-    }
+	/**
+	 * Gets the value of the postCode property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getPostCode() {
+		return postCode;
+	}
 
-    /**
-     * Gets the value of the postCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPostCode() {
-        return postCode;
-    }
+	/**
+	 * Gets the value of the startDate property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getStartDate() {
+		return startDate;
+	}
 
-    /**
-     * Sets the value of the postCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPostCode(String value) {
-        this.postCode = value;
-    }
+	/**
+	 * Gets the value of the state property.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getState() {
+		return state;
+	}
 
-    /**
-     * Gets the value of the isPrimary property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getIsPrimary() {
-        return isPrimary;
-    }
+	/**
+	 * Sets the value of the addressID property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAddressID(String value) {
+		this.addressID = value;
+	}
 
-    /**
-     * Sets the value of the isPrimary property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setIsPrimary(String value) {
-        this.isPrimary = value;
-    }
+	/**
+	 * Sets the value of the addressLine1 property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAddressLine1(String value) {
+		this.addressLine1 = value;
+	}
 
-    /**
-     * Gets the value of the addressID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressID() {
-        return addressID;
-    }
+	/**
+	 * Sets the value of the addressLine2 property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAddressLine2(String value) {
+		this.addressLine2 = value;
+	}
 
-    /**
-     * Sets the value of the addressID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressID(String value) {
-        this.addressID = value;
-    }
+	/**
+	 * Sets the value of the addressLine3 property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAddressLine3(String value) {
+		this.addressLine3 = value;
+	}
 
-    /**
-     * Gets the value of the state property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getState() {
-        return state;
-    }
+	/**
+	 * Sets the value of the addressLine4 property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAddressLine4(String value) {
+		this.addressLine4 = value;
+	}
 
-    /**
-     * Sets the value of the state property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setState(String value) {
-        this.state = value;
-    }
+	/**
+	 * Sets the value of the addressLine5 property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAddressLine5(String value) {
+		this.addressLine5 = value;
+	}
 
-    /**
-     * Gets the value of the city property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCity() {
-        return city;
-    }
+	/**
+	 * Sets the value of the addressSource property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAddressSource(String value) {
+		this.addressSource = value;
+	}
 
-    /**
-     * Sets the value of the city property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCity(String value) {
-        this.city = value;
-    }
+	/**
+	 * Sets the value of the addressType property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAddressType(String value) {
+		this.addressType = value;
+	}
 
-    /**
-     * Gets the value of the addressSource property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressSource() {
-        return addressSource;
-    }
+	/**
+	 * Sets the value of the city property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCity(String value) {
+		this.city = value;
+	}
 
-    /**
-     * Sets the value of the addressSource property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressSource(String value) {
-        this.addressSource = value;
-    }
+	/**
+	 * Sets the value of the country property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCountry(String value) {
+		this.country = value;
+	}
 
-    /**
-     * Gets the value of the deliveryPointSuffix property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDeliveryPointSuffix() {
-        return deliveryPointSuffix;
-    }
+	/**
+	 * Sets the value of the county property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCounty(String value) {
+		this.county = value;
+	}
 
-    /**
-     * Sets the value of the deliveryPointSuffix property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDeliveryPointSuffix(String value) {
-        this.deliveryPointSuffix = value;
-    }
+	/**
+	 * Sets the value of the deliveryPointSuffix property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setDeliveryPointSuffix(String value) {
+		this.deliveryPointSuffix = value;
+	}
 
-    /**
-     * Gets the value of the startDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStartDate() {
-        return startDate;
-    }
+	/**
+	 * Sets the value of the endDate property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setEndDate(String value) {
+		this.endDate = value;
+	}
 
-    /**
-     * Sets the value of the startDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStartDate(String value) {
-        this.startDate = value;
-    }
+	/**
+	 * Sets the value of the isPrimary property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setIsPrimary(String value) {
+		this.isPrimary = value;
+	}
 
-    /**
-     * Gets the value of the endDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEndDate() {
-        return endDate;
-    }
+	/**
+	 * Sets the value of the location property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLocation(String value) {
+		this.location = value;
+	}
 
-    /**
-     * Sets the value of the endDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEndDate(String value) {
-        this.endDate = value;
-    }
+	/**
+	 * Sets the value of the postCode property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setPostCode(String value) {
+		this.postCode = value;
+	}
 
-    /**
-     * Gets the value of the location property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLocation() {
-        return location;
-    }
+	/**
+	 * Sets the value of the startDate property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setStartDate(String value) {
+		this.startDate = value;
+	}
 
-    /**
-     * Sets the value of the location property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLocation(String value) {
-        this.location = value;
-    }
+	/**
+	 * Sets the value of the state property.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setState(String value) {
+		this.state = value;
+	}
 
 }
