@@ -88,4 +88,11 @@ public class CmecGetClientDetailsRequest {
 		this.scin = value;
 	}
 
+	@Override
+	public String toString() {
+		return "CmecGetClientDetailsRequest [requestHeader=" + requestHeader + ", scin=" + scin + "]";
+	}
+
+	
+	
 }

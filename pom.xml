@@ -54,6 +54,18 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+ <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <configuration>
+                <requiresUnpack>
+                    <dependency>
+                        <groupId>org.apache.axis2</groupId>
+                        <artifactId>axis2</artifactId>
+                    </dependency>
+                </requiresUnpack>
+            </configuration>
+        </plugin>
 
 			<!-- <plugin>
 				<groupId>org.codehaus.mojo</groupId>

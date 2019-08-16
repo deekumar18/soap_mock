@@ -8,4 +8,6 @@ import uk.gov.dwp.esbmock.domain.Employee;
 @Repository
 public interface EmployeeDao extends MongoRepository<Employee, Integer> {
 
+	
+	
 }
