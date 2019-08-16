@@ -8,6 +8,8 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 import uk.gov.dwp.esbmock.repository.ClientDetailsResponseDao;
 import uk.gov.dwp.esbmock.service.EsbService;
+import uk.gov.gsi.childmaintenance.futurescheme.bo.esb.deoschedule.cmecinquiredeodetailsrequest.CMECInquireDEODetailsRequest;
+import uk.gov.gsi.childmaintenance.futurescheme.bo.esb.deoschedule.cmecinquiredeodetailsresponse.CMECInquireDEODetailsResponse;
 import uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest.CmecEPortalContactDetails;
 import uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest.CmecGetClientDetailsRequest;
 import uk.gov.gsi.childmaintenance.futurescheme.bo.esb.eportal.cmecgetclientdetailsrequest.CmecGetClientDetailsResponse;
@@ -34,6 +36,13 @@ public class EsbEndpoint {
 		System.out.println("***************************");
 		System.out.println(clientDetailsResponseDao.findAll());
 		
+		return response;
+	}
+	
+	@PayloadRoot(namespace = "http://www.childmaintenance.gsi.gov.uk/futurescheme/interfaces/CMECGetClientDetailsWebService", localPart = "getClientDetails")
+	@ResponsePayload
+	public CMECInquireDEODetailsResponse getInquireDEODetails(@RequestPayload CMECInquireDEODetailsRequest request) {
+		CMECInquireDEODetailsResponse response = new CMECInquireDEODetailsResponse();
 		return response;
 	}
 
