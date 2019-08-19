@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema targetNamespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/deoSchedule/CMECInquireDEODetailsResponse" xmlns:bons0="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/deoSchedule/CMECInquireDEODetailsResponse" xmlns:bons1="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/Response.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:import namespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/Response.xsd" schemaLocation="Response.xsd"/>
+
+	<xsd:complexType name="CMECInquireDEODetailsResponse">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="ResponseHeader" type="bons1:Response">
+			</xsd:element>
+			<xsd:element maxOccurs="1" minOccurs="0" name="InquireDEOResponse" type="bons0:InquireDEOResponse"/>
+		</xsd:sequence>
+	</xsd:complexType>			
+	<xsd:complexType name="InquireDEOResponse">
+		<xsd:sequence>				
+			<xsd:element minOccurs="0" name="employerAccountId" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="action" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="fromDate" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="toDate" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="scheduleStatus" type="xsd:string">
+			</xsd:element>
+			<xsd:element maxOccurs="1" minOccurs="0" name="EmployerScheduleDetailsCollection" type="bons0:EmployerScheduleDetailsCollection"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="EmployerScheduleDetailsCollection">
+		<xsd:sequence>
+			<xsd:element maxOccurs="unbounded" minOccurs="0" name="EmployerScheduleDetails" type="bons0:EmployerScheduleDetails"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="EmployerScheduleDetails">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="scheduleId" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="fromDate" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="toDate" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="targetAmount" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="actualAmount" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="overDraftAmount" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="dueDate" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="scheduleDate" type="xsd:string"/>			
+			<xsd:element minOccurs="0" name="scheduleStatus" type="xsd:string"/>
+			<xsd:element minOccurs="0" name="reasonCode" type="xsd:string">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

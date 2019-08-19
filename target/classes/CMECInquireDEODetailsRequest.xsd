@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema targetNamespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/esb/deoSchedule/CMECInquireDEODetailsRequest" xmlns:bons0="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/CMECHeader.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:import namespace="http://www.childmaintenance.gsi.gov.uk/futurescheme/bo/common/CMECHeader.xsd" schemaLocation="CMECHeader.xsd">
+	</xsd:import>
+	<xsd:complexType name="CMECInquireDEODetailsRequest">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="RequestHeader" type="bons0:CMECHeader">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="employerAccountId" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="action" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="scheduleStatus" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="startDate" type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="endDate" type="xsd:string">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
